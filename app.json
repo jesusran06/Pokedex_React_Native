@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#f00"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -18,6 +18,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "jesus.rangel.pokedex",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -25,6 +26,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cb88cc8c-e5e0-426a-b534-c44191e59ff9"
+      }
     }
   }
 }
